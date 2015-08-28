@@ -1,0 +1,35 @@
+{
+  "name": "dumb-array-extractor",
+  "version": "0.0.1",
+  "description": "a dumb array extractor for the chrysalis module",
+  "homepage": "",
+  "repository": "frankros01/dumb-array-extractor",
+  "author": {
+    "name": "frankros91",
+    "email": "frankros91@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [],
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^0.15.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^0.4.5",
+    "gulp-plumber": "^1.0.0",
+    "should": "^7.1.0"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
+}
